@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metsäkylän koulu - Wilma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Wilma - Metsäkylän koulu</h1>
+        <nav>
+            <ul>
+                <li><a href="#viestit">Viestit</a></li>
+                <li><a href="#työjärjestys">Työjärjestys</a></li>
+                <li><a href="#opinnot">Opinnot</a></li>
+                <li><a href="#tuntimerkinnät">Tuntimerkinnät</a></li>
+                <li><a href="#asetukset">Asetukset</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="viestit">
+            <h2>Viestit</h2>
+            <p>Sinulle ei ole uusia viestejä.</p>
+            <button>Kirjoita uusi viesti</button>
+        </section>
+        
+        <section id="työjärjestys">
+            <h2>Työjärjestys</h2>
+            <p>Päivän työjärjestys on tyhjä.</p>
+        </section>
+        
+        <section id="opinnot">
+            <h2>Opinnot tässä jaksossa</h2>
+            <ul>
+                <li><strong>AI AI1 :</strong> Kotitehtävät 11.9.: Tunnilla: Koevastaus s. 54-55. Tehtävät 4-6 s. 56-57 Kotona: Tehtävät 4-6 s. 56-57 loppuun.</li>
+                <li><strong>BI.13 BI1 :</strong> Kotitehtävät 12.9.: Ex. 131 p. 24-25 (Check tb p. 12-13.)</li>
+                <li><strong>HI HI1 :</strong> Kotitehtävät 13.9.: s. 27 t. 3</li>
+                <!-- Lisää muita oppiaineita tarvittaessa -->
+            </ul>
+        </section>
+        
+        <section id="tuntimerkinnät">
+            <h2>Tuntimerkinnät</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Päivämäärä</th>
+                        <th>Oppiaine</th>
+                        <th>Merkintä</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15.9.2024</td>
+                        <td>Matematiikka</td>
+                        <td>Keskityit hienosti</td>
+                    </tr>
+                    <tr>
+                        <td>16.9.2024</td>
+                        <td>Historia</td>
+                        <td>Yritä rohkeasti, opit kyllä!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="asetukset">
+            <h2>Asetukset</h2>
+            <ul>
+                <li><a href="#">Ilmoitusasetukset</a></li>
+                <li><a href="#">Käyttöoikeudet</a></li>
+                <li><a href="#">Käyttäjätilin asetukset</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Metsäkylän koulu</p>
+    </footer>
+</body>
+</html>
